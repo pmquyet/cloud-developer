@@ -3,6 +3,7 @@
  */
 export interface UpdateTodoRequest {
   name: string
-  dueDate: string
+  createdAt: string
   done: boolean
+  dueDate: string
 }
